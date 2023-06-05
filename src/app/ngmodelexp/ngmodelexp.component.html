@@ -1,5 +1,5 @@
 <p>ngmodelexp works!</p>
 
 <!-- for NgModel exp -->
-<input type="text" [value]="title" (keyup.enter)="title=$event.target.value">
+<input type="text" [value]="title" (keyup)="onEvent($event)">
 <h2>{{title}}</h2>

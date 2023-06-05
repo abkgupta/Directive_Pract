@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class NgmodelexpComponent {
   title: string = "This is the Title" 
+  onEvent(event: any){
+    console.log(event.target.value)
+     this.title = event.target.value
+  }
 }

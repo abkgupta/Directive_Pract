@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { NstyleComponent } from './nstyle/nstyle.component';
 import { NgmodelexpComponent } from './ngmodelexp/ngmodelexp.component';
+import { NgcontentcComponent } from './ngcontentc/ngcontentc.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { NgmodelexpComponent } from './ngmodelexp/ngmodelexp.component';
     SearchComponent,
     NstyleComponent,
     NgmodelexpComponent,
+    NgcontentcComponent,
   ],
   imports: [
     BrowserModule,
